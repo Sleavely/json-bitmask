@@ -1,0 +1,11 @@
+{
+  "name": "json-bitmask",
+  "version": "0.0.0",
+  "description": "Easy-to-use bitmask serializer for compressing JSON communication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "license": "MIT"
+}
