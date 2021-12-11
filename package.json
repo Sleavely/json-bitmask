@@ -1,6 +1,6 @@
 {
   "name": "json-bitmask",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Easy-to-use bitmask serializer for compressing JSON communication",
   "main": "index.js",
   "scripts": {
