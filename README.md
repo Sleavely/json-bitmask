@@ -1,7 +1,9 @@
-### json-bitmask
+# json-bitmask
 
-Minimal utility for de-/serializing bitmasks.
+Minimal utility for de-/serializing bitmask flags.
 
+[ ![npm version](https://img.shields.io/npm/v/json-bitmask.svg?style=flat) ](https://npmjs.org/package/json-bitmask "View package")
+[ ![CI status](https://github.com/Sleavely/json-bitmask/actions/workflows/node.js.yml/badge.svg) ](https://github.com/Sleavely/json-bitmask/actions/workflows/node.js.yml "View workflow")
 ## Installation
 
 ```sh
