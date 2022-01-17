@@ -5,7 +5,7 @@ exports.from = (FLAGS = {}) => (mask = 0b0000000000000000) => {
     compiledFlags[key] = !!(FLAGS[key] & mask)
   }
   return new Proxy(compiledFlags, {
-    get(target, prop, receiver) {
+    get (target, prop, receiver) {
       // These methods should return the serialized mask
       if (['toJSON', 'valueOf'].includes(prop)) {
         return () => {
@@ -18,12 +18,12 @@ exports.from = (FLAGS = {}) => (mask = 0b0000000000000000) => {
 
       return Reflect.get(target, prop, receiver)
     },
-    set(target, prop, value, receiver) {
+    set (target, prop, value, receiver) {
       if (!Reflect.has(target, prop)) {
         throw new Error(`'${prop}' is not a valid FLAGS key.`)
       }
 
       return Reflect.set(target, prop, !!value, receiver)
-    }
+    },
   })
 }

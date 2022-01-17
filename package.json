@@ -2,9 +2,9 @@
   "name": "json-bitmask",
   "version": "0.0.1",
   "description": "Easy-to-use bitmask serializer for compressing JSON communication",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --silent && eslint ."
   },
   "author": "Joakim Hedlund <contact@joakimhedlund.com>",
   "homepage": "https://github.com/Sleavely/json-bitmask",
@@ -14,5 +14,13 @@
     "bitmask",
     "bitflags",
     "enum"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.4.7"
+  }
 }
