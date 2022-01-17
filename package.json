@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joakim Hedlund <contact@joakimhedlund.com>",
-  "license": "MIT"
+  "homepage": "https://github.com/Sleavely/json-bitmask",
+  "repository": "github:Sleavely/json-bitmask",
+  "license": "MIT",
+  "keywords": [
+    "bitmask",
+    "bitflags",
+    "enum"
+  ]
 }
